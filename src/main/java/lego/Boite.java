@@ -27,5 +27,8 @@ public class Boite {
 	}
 	
 	
-	
+	@Override
+	public String toString() {
+		return "LEGO " + number + " - " + name;
+	}
 }
