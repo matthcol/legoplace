@@ -3,6 +3,7 @@ package lego;
 public class Boite {
 	private int number;
 	private String name;
+	private int price;
 	
 	public Boite(int number, String name) {
 		super();
